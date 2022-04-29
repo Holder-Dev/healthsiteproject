@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My NextLvl</title>
+    <link rel="stylesheet" href="../main.css"/>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <style media="screen">
+      .btn-group {
+      background-color: inherit;
+      padding: 10px 24px;
+      font-size: 16px;
+      cursor: pointer;
+      display: block;
+      width: 50%;
+      left: 100px;
+      }
+
+      .btn-group button:not(:last-child) {
+        border-bottom: none; /* Prevent double borders */
+      }
+
+      .btn-group button:hover {
+        background-color: #DBF0C9;
+        color: black;
+      }
+
+      .c:link {
+        text-decoration: none;
+        color: black;
+      }
+      .c:visited{
+        text-decoration: none;
+        color: black;
+      }
+
+      div.col-8{
+        position: absolute;
+        right: 500px;
+        bottom: 450px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul class="a">
+        <li class="a"><img class="a" src="../images/nextlvllogobarwick.jpg"></li>
+        <li class="a"><a href="../index.html">Home</a></li>
+        <li class="a"><a href="../myaccount.html">My Account</a></li>
+        <li class="a"><a href="../resources.html">Resources</a></li>
+        <li class="a"><a href="../contactus.html">Contact Us</a></li>
+        <li class="a"><a href="../medicalconditions.html">Medical Conditions</a></li>
+        <li class="a"><a href="../myaccount.html">Sign Out</a></li>
+      </ul>
+    </nav>
+
+    <div class="btn-group"> <!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_button_group_vertical-->
+      <h2>Welcome, Patient!</h2>
+      <p>DOB: 00/00/0000 <br>
+      Phone: (000)-000-0000
+      </p>
+      <button class="btn-group"><a class="c" href="../signin/mymedications.html">My Medications</a></button>
+      <button class="btn-group"><a class="c" href="../signin/myallergies.html">My Allergies</a></button>
+      <button class="btn-group"><a class="c" href="../signin/mydiagnosis.html">My Diagnosis</a></button>
+      <button class="btn-group"><a class="c" href="../signin/myinformation.html">My Information</a></button>
+      <button class="btn-group"><a class="c" href="../signin/myinsurance.html">My Insurance</a></button>
+    </div>
+
+    <div class="col-8">
+      <table id="medications">
+      <tr>
+        <th>Medication</th>
+        <th>Dosage</th>
+      </tr>
+      <tr>
+        <td>Albuterol</td>
+        <td>2 puffs every 4-6 hours</td>
+      </tr>
+      <tr>
+        <td>Magnesium</td>
+        <td>200mg/day</td>
+      </tr>
+    </table>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer>
+      <hr>
+      &copy; Copyright All Reserved 2022
+    </footer>
+  </body>
+</html>

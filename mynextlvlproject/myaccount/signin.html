@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My NextLvl</title>
+    <link rel="stylesheet" href="../main.css"/>
+    <script src="../bootstrap.bundle.min.js"></script>
+    <style media="screen">
+      .btn-group {
+      background-color: inherit;
+      padding: 10px 24px;
+      font-size: 16px;
+      cursor: pointer;
+      display: block;
+      width: 50%;
+      left: 100px;
+      }
+
+      .btn-group button:not(:last-child) {
+        border-bottom: none; /* Prevent double borders */
+      }
+
+      .btn-group button:hover {
+        background-color: #DBF0C9;
+        color: black;
+      }
+
+      .c:link {
+        text-decoration: none;
+        color: black;
+      }
+      .c:visited{
+        text-decoration: none;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul class="a">
+        <li class="a"><img class="a" src="../images/nextlvllogobarwick.jpg"></li>
+        <li class="a"><a href="../index.html">Home</a></li>
+        <li class="a"><a href="../myaccount.html">My Account</a></li>
+        <li class="a"><a href="../reminders.html">Reminders</a></li>
+        <li class="a"><a href="../resources.html">Resources</a></li>
+        <li class="a"><a href="../contactus.html">Contact Us</a></li>
+        <li class="a"><a href="../medicalconditions.html">Medical Conditions</a></li>
+        <li style="float: right;"><a class="button1" href="../myaccount.html">Sign Out</a></li>
+      </ul>
+    </nav>
+
+    <div class="btn-group"> <!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_button_group_vertical-->
+      <h2>Welcome, Patient!</h2>
+      <p>DOB: 00/00/0000 <br>
+      Phone: (000)-000-0000
+      </p>
+      <button class="btn-group"><a class="c" href="../signin/mymedications.html">My Medications</a></button>
+      <button class="btn-group"><a class="c" href="../signin/myallergies.html">My Allergies</a></button>
+      <button class="btn-group"><a class="c" href="../signin/mydiagnosis.html">My Diagnosis</a></button>
+      <button class="btn-group"><a class="c" href="../signin/myinformation.html">My Information</a></button>
+      <button class="btn-group"><a class="c" href="../signin/myinsurance.html">My Insurance</a></button>
+    </div>
+
+    <div class="col-8">
+      <h2>Reminders</h2>
+      <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%230B8043&ctz=America%2FNew_York&title=Reminders&src=N2t0dGQ3MG1nc3N2Y3MzZTdqYWlvMWphbzBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%230B8043&color=%230B8043" style="border:solid 1px #777" width="500" height="400" frameborder="0" scrolling="yes"></iframe>
+      <br>
+      <a href="./doctorreminders.html" role="button">Edit Doctor Reminders</a><br>
+      <a href="./refillreminders.html" role="button">Edit Refill Reminders</a>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer>
+      <hr>
+      &copy; Copyright All Reserved 2022
+    </footer>
+  </body>
+</html>
